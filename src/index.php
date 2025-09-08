@@ -43,7 +43,7 @@
         <section class="welcome-text d-flex justify-content-center align-items-center flex-column">
         	<img src="logo.jpg" >
         	<h4>Welcome to Y School</h4>
-        	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        	<p></p>
         </section>
         <section id="about"
                  class="d-flex justify-content-center align-items-center flex-column">
@@ -55,7 +55,7 @@
 			    <div class="col-md-8">
 			      <div class="card-body">
 			        <h5 class="card-title">About Us</h5>
-			        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <p class="card-text"></p>
 			        <p class="card-text"><small class="text-muted">Y School</small></p>
 			      </div>
 			    </div>
