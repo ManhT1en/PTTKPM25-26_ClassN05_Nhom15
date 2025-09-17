@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .body-home, .body-login {
-	background: url(../img/bg.jpg);
+	background: url('../image.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
 .black-fill {
-	background: rgba(0,0,0, 0.7);
+	background: rgba(250, 247, 247, 0.7);
 	min-height: 100vh;
 }
 #homeNav {
