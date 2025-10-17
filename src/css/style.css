@@ -1,75 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-.body-home, .body-login {
-	background: url('../image.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-}
-.black-fill {
-	background: rgba(250, 247, 247, 0.7);
-	min-height: 100vh;
-}
-#homeNav {
-	background: rgba(255,255,255, 0.5) !important;
-}
-.welcome-text {
-	min-height: 80vh;
-}
-.welcome-text img {
-	width: 100px;
-}
-.welcome-text h4 {
-	color: #eee;
-	font-size: 51px;
-	font-family: 'Lobster', cursive;
-
-}
-.welcome-text p {
-	color: #222;
-	background: rgba(255,255,255, 0.5);
-	padding: 5px;
-	border-radius: 4px;
-}
-#about {
-	min-height: 100vh;
-}
-#about .card-1{
-	max-width: 600px;
-	width: 90%;
-	background: rgba(255,255,255, 0.5);
-	padding: 20px;
-	border-radius: 5px;
-}
-#about .card-1 h5{
-	font-family: 'Lobster', cursive;
-	font-size: 28px;
+:root{
+  --teal: #2D6A4F;
+  --teal_hover: #2D6A4F;
 }
 
-#contact {
-	min-height: 100vh;
+*{
+  font-family: 'Lato', sans-serif;
 }
-#contact form{
-	max-width: 600px;
-	width: 90%;
-	background: rgba(255,255,255, 0.5);
-	padding: 20px;
-	border-radius: 5px;
-}
-#contact form h3 {
-	text-align: center;
-	font-family: 'Lobster', cursive;
-}
-textarea {
-	resize: none;
+.h-font{
+  font-family: 'Merriweather', serif;
 }
 
-.login {
-	max-width: 500px;
-	width: 90%;
-	background: rgba(255,255,255, 0.5);
-	padding: 10px;
-	border-radius: 10px;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
-.login h3{
-	text-align: center;
-	font-size: 50px;
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.custom-bg{
+  background-color: var(--teal);
+  border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+  background-color: var(--teal_hover);
+  border-color: var(--teal_hover);
+}
+
+.h-line{
+  width: 150px;
+  margin: 0 auto;
+  height: 1.7px;
+}
+
+.custom-alert{
+  position: fixed;
+  top: 80px;
+  right: 25px;
+  z-index: 1111;
 }
