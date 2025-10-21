@@ -571,7 +571,6 @@ INSERT INTO `user_cred` (`id`, `name`, `email`, `address`, `phonenum`, `pincode`
 (11, 'test', 'test@gmail.com', '123123', '1231231455555', 123123, '1111-11-11', 'chill-guy.png', '12345', 0, NULL, NULL, 1, '2025-06-24 13:05:25'),
 (12, 'Nguyen Nghia', 'nghia@gmail.com', 'Da Nang', '0905123123', 123123, '2002-03-19', 'IMG_78307.jpeg', '$2y$10$Ni7GZPADcuGdZMmJ.0WR1uAiE2C/OAkVGhm.k15//FM1tk8oXZieu', 0, NULL, NULL, 1, '2025-06-24 15:18:33'),
 (13, 'Bui Thanh', 'hau69710@gmail.com', 'Quận 8', '0327786217', 84, '2003-04-10', 'IMG_68658.jpeg', '$2y$10$O.c8RHDqyryx.qBPnI49b.2YabjvIAwP5SlQknqez1lMGZYRI4RN2', 0, NULL, NULL, 1, '2025-06-24 22:30:05'),
-(14, 'Phạm Quang Huy', 'pqhuy@gmail.com', 'Hà Nội', '0352640446', 1204034299, '2004-08-25', 'IMG_49614.jpeg', '$2y$10$OnsfuBREGbXC.oEjWjnnA.Of0CPsGb1QxFnFWaDF18JP2RYhoriSu', 0, NULL, NULL, 1, '2025-06-24 22:06:13'),
 (15, 'Quang Huy', 'pqhuy2508@gmail.com', 'Hà Nội', '0364106604', 1204034299, '2004-08-25', 'IMG_29236.jpeg', '$2y$10$Y0bLko9VUmXD.Sndvy4TyuZ0.RngNPhQVuVCP//rx3Tt.8X54z37W', 0, NULL, NULL, 1, '2025-07-23 09:33:09'),
 (16, 'Phạm Quang Huy', 'pqhuyy2508@gmail.com', 'Hà Nội', '0352702404', 142, '2004-08-25', 'IMG_95762.jpeg', '$2y$10$pZVhy/h7wNWvvhVvhQCojOV.Zq5G.rc77gHQSA07noxp5d8G4Wav.', 0, NULL, NULL, 1, '2025-07-23 10:39:46');
 
